@@ -530,7 +530,7 @@ const userNav = options => {
         title: '表单页'
       },
       redirect: '/form/base-form',
-      component: 'RouteView'
+      component: 'PageView'
     },
     {
       name: 'basic-form',
@@ -571,7 +571,7 @@ const userNav = options => {
         show: true
       },
       redirect: '/list/table-list',
-      component: 'RouteView'
+      component: 'PageView'
     },
     {
       name: 'table-list',
